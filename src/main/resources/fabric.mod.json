@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "spectp",
+	"version": "${version}",
+	"name": "Spectator Teleport",
+	"description": "Allows players in spectator to teleport anywhere?",
+	"authors": [
+		"KikuGie"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/spectp",
+		"sources": "https://github.com/kikugie/spectp",
+		"issues": "https://github.com/kikugie/spectp/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/spectp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+	},
+	"mixins": [
+		"spectp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.13",
+		"minecraft": ">=1.17"
+	},
+	"accessWidener": "spectp.accesswidener"
+}

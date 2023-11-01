@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "dev.kikugie.spectp.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ArgumentBuilderAccessor",
+		"CommandNodeAccessor",
+		"TeleportCommandMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
